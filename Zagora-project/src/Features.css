@@ -1,0 +1,127 @@
+/* General Styling for the Section */
+#features {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.section-title-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Custom Card Styling */
+.custom-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  overflow: hidden;
+  height: 400px; /* Adjusted height to medium size */
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px; /* Keeps image size as before */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 150px; /* Adjusted max height for the body of the card */
+  overflow: hidden; /* Prevents overflow */
+}
+
+/* Card Title and Text Styling */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  overflow: hidden; /* Hide overflowed content */
+  text-overflow: ellipsis; /* Add ellipsis when text is too long */
+  height: 80px; /* Set a height limit for text */
+  display: block;
+}
+
+/* Style the button */
+.btn-primary {
+  background-color: #874c22;
+  border-color: #874c22;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #874c22;
+  border-color: #874c22;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .custom-card {
+    margin-bottom: 20px;
+    height: auto; /* Adjust card height for mobile */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .custom-card {
+    margin-bottom: 30px;
+  }
+}
+
+/* Optional: Adjust padding and layout for better spacing */
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Icon Container Styling */
+.icon-container {
+  position: relative;
+  height: 200px; /* You can adjust this based on your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Keep the background color as is */
+  border-radius: 10px;
+  overflow: hidden; /* Ensures the icon doesn't overflow outside the container */
+  transition: all 0.3s ease; /* Optional: add a smooth transition for other changes */
+}
+
+/* Styling for the icon inside the container */
+.more-icon {
+  font-size: 50px; /* Adjust the icon size as needed */
+  color: #333; /* Default icon color */
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the icon */
+.more-icon:hover {
+  color: #874c22; /* Icon color change on hover */
+  transform: scale(1.1); /* Slightly enlarge the icon */
+}

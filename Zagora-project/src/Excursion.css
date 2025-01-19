@@ -1,0 +1,260 @@
+.desert-card {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .desert-card-content {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 1024px) {
+    .desert-card-content {
+      flex-direction: row;
+    }
+  }
+  
+  .desert-gallery,
+  .desert-info {
+    padding: 2rem;
+    width: 100%;
+  }
+  
+  @media (min-width: 1024px) {
+    .desert-gallery,
+    .desert-info {
+      width: 50%;
+    }
+  }
+  
+  .main-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .main-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .main-image:hover img {
+    transform: scale(1.05);
+  }
+  
+  .like-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .thumbnail {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 0.25rem;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .thumbnail.active {
+    box-shadow: 0 0 0 2px #874c22;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  .underline {
+    width: 4rem;
+    height: 4px;
+    background-color: #874c22;
+    margin-bottom: 1.5rem;
+  }
+  
+  .description,
+  .best-time-to-visit p {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  .points-of-interest ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .points-of-interest li {
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+  }
+  
+  .best-time-to-visit {
+    background-color: #fef3c7;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rating span {
+    color: #4b5563;
+    margin-left: 0.5rem;
+  }
+  
+  .book-button {
+    width: 100%;
+    background-color: #874c22;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #874c22;
+    transform: translateY(-2px);
+  }
+  
+  .book-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.5);
+  }
+  
+ /* For screens up to 300px */
+@media (max-width: 300px) {
+  .desert-card {
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .desert-card-content {
+    margin-top: 3%;
+    padding: 1rem;
+  }
+
+  .main-image img {
+    height: 200px;
+  }
+
+  .thumbnail img {
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .book-button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* For screens up to 400px */
+@media (max-width: 400px) {
+  .desert-card {
+    margin: 1.5rem;
+    border-radius: 0.75rem;
+  }
+
+  .main-image img {
+    height: 300px;
+  }
+
+  .thumbnail img {
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .book-button {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}
+
+/* For screens up to 700px */
+@media (max-width: 700px) {
+  .desert-card-content {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .main-image img {
+    height: 400px;
+  }
+
+  .thumbnail img {
+    height: 70px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* For screens up to 1024px */
+@media (max-width: 1024px) {
+  .desert-gallery,
+  .desert-info {
+    width: 100%;
+  }
+
+  .main-image img {
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}

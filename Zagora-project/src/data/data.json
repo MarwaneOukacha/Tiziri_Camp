@@ -1,0 +1,299 @@
+{
+  "Header": {
+    "title": "Top rated Morocco Desert Tour",
+    "paragraph": ""
+  },
+  "About": {
+    "paragraph": "Specialized in travel across Morocco, we offer tailor-made tours by 4x4, camelback, or on foot for hiking or trekking in the Zagora desert. With our expert guides and know-how, we provide a unique experience for your stay in the Zagora region. Meet the locals, be accompanied by our experienced guides, discover life in a bivouac, or embark on a trek while staying with locals, in a kasbah, or in a tent in the heart of the desert",
+    "Why": [
+      "Unforgettable adventure",
+      "Discovery",
+      "Expert Guides & Authentic Experiences"
+    ],
+    "Why2": [
+      "Rich Cultural Connection",
+      "Sustainability & Responsible Travel"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/perso_img/IMG-20250103-WA0011.jpg",
+      "smallImage": "img/perso_img/IMG-20250103-WA0011.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/perso_img/IMG-20250103-WA0014.jpg",
+      "smallImage": "img/perso_img/IMG-20250103-WA0014.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/perso_img/IMG-20250103-WA0011.jpg",
+      "smallImage": "img/perso_img/IMG-20250103-WA0011.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa-solid fa-utensils",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "The welcome was very warm and friendly, and we had the opportunity to learn more about the region. The room and amenities were very comfortable! Cump is spacious and clean, which was highly appreciated",
+      "name": "Camille"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "A human-sized, family-friendly, and generous Cump. A beautiful stop in Zagora that I can only recommend to future travelers!",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "The owner is a well-known marathon runner and is extremely welcoming, as is the rest of the staff (Special mention ++ to the cook).The room is spacious, with a pleasant decoration, hot water, Wi-Fi, and heating with a split system — everything is in good order.The breakfast is quite good, as well as the dinners we had at this Cump.",
+      "name": "JI"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "The staff is attentive and caring. The breakfast is generous and delicious.The rooms are spacious and clean. Comfortable beds.There is parking available right next to the Cump.",
+      "name": "Tony"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "Small Cump with exceptional hospitality. Everything is refined and clean.The cuisine is very well-prepared and wonderful.",
+      "name": "Virginie"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Zagora",
+    "phone": "+212 628415249",
+    "email": "tiziricamp00@yahoo.com",
+    "facebook": "fb.com",
+    "instagram":"",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "id": "1",
+      "img": "img/5.jpg",
+      "title": "Begin from Erg Lihoudi",
+      "text": "Erg Lihoudi, a serene gateway to the Moroccan desert, captivates with its tranquil dunes that gracefully rise and fall, offering an inviting introduction to the vast Sahara...."
+    },
+    {
+      "id": "2",
+      "img": "img/1.jpg",
+      "title": "Begin from Erg chegaga",
+      "text": "Erg Chigaga, one of the jewels of the Moroccan desert, stands out with its majestic dunes stretching as far as the eye can see, reaching heights of over 300 meters..."
+    },
+    {
+      "id": "3",
+      "img": "img/4.jpg",
+      "title": "Begin from Ouarzazate ",
+      "text": "Zagora, the iconic gateway to the Sahara, boasts enchanting landscapes with its kasbahs, palm groves, and ancient traditions..."
+    },
+    {
+      "id": "4",
+      "img": "img/images/transp.jpg",
+      "title": "Private Transfers",
+      "text": "Travel in comfort with a private 4x4 and driver..."
+    }
+  ],
+  "Excurtion": [
+    {
+      "id": "1",
+      "title": "The Erg Lihoudi Desert",
+      "description": "Set amidst the captivating expanse of the Sahara Desert, Erg Lihoudi is a breathtaking destination that guarantees an unforgettable Moroccan adventure. Renowned for its peaceful charm, golden sand dunes, and tranquil ambiance, Erg Lihoudi perfectly combines natural beauty with cultural depth. Whether you’re looking for solitude in the vast desert or eager to explore the rich traditions of the Berber people, Erg Lihoudi offers the ideal backdrop for a tailored and luxurious experience.\n\nDay Trip to Erg Lihoudi\nEmbark on a private 4x4 journey with a driver, including a visit to Tamegroute, the village of potters, and the stunning Draa Valley. Travel along the track to Erg Lihoudi, where you’ll enjoy a delicious lunch at a bivouac and a camel ride through the serene dunes.",
+      "PointsInteret": [
+        "Tamegroute",
+        "Draa Valley",
+        "Track to Erg Lihoudi"
+      ],
+      "details": "From October to April, when temperatures are milder and conditions are ideal for desert exploration.",
+      "price": [
+        "2 people: 900 DHS/person",
+        "3 people: 750 DHS/person",
+        "4 people: 650 DHS/person",
+        "5 people: 550 DHS/person",
+        "6 people: 480 DHS/person"
+      ],
+      "desertImages": [
+        "/img/perso_img/IMG-20250103-WA0011.jpg",
+        "/img/perso_img/IMG-20250103-WA0012.jpg",
+        "/img/perso_img/IMG-20250103-WA0013.jpg",
+        "/img/perso_img/IMG-20250103-WA0015.jpg",
+        "/img/images/Tagin.jpg",
+        "/img/images/Restauration.jpg",
+        "/img/images/Cump9.jpg",
+        "/img/images/Restauration02.jpg",
+        "/img/images/Restauration03.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "The Erg Chigaga desert",
+      "description": "The Erg Chigaga desert tours are among the most popular experiences in the Moroccan desert. If you're planning a Morocco Sahara desert tour during your holiday, the majestic dunes of Erg Chigaga are a must-visit destination. Known for having some of the largest dunes in the Moroccan Sahara, Erg Chigaga offers an unforgettable adventure. You can opt for a 4x4 desert tour to Erg Chigaga starting from M'hamid.\n\n2 Days in the Desert - Erg Chigaga\nExperience a private 4x4 journey with a driver, including a visit to Tamegroute, the village of potters, and the palm grove of M'Hamid El Ghizlane. Travel through the tracks leading to Erg Chigaga, the largest dune region in Morocco. Enjoy dinner and an overnight stay in a classic bivouac. The following morning, take a camel ride before returning to Zagora.",
+      "PointsInteret": [
+        "Tamegroute",
+        "The village of potters",
+        "M'Hamid El Ghizlane",
+        "Erg Chigaga"
+      ],
+      "details": "From October to April, when temperatures are milder and conditions are ideal for desert exploration.",
+      "price": [
+        "2 people: 1900 DHS/person",
+        "3 people: 1400 DHS/person",
+        "4 people: 1200 DHS/person",
+        "5 people: 1040 DHS/person",
+        "6 people: 950 DHS/person"
+      ],
+      "desertImages": [
+        "/img/images/Cump01.jpg",
+        "/img/images/sport.jpg",
+        "/img/images/more01.jpg",
+        "/img/images/more02.jpg",
+        "/img/perso_img/IMG-20250103-WA0036.jpg",
+        "/img/perso_img/IMG-20250103-WA0017.jpg",
+        "/img/perso_img/IMG-20250103-WA0021.jpg",
+        "/img/perso_img/IMG-20250103-WA0035.jpg",
+        "/img/images/Cump10.jpg",
+        "/img/images/Restauration.jpg",
+        "/img/images/Restauration04.jpg",
+        "/img/images/Restauration05.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "DAY TRIPS, DAY TRIPS FROM OUARZAZATE",
+      "description": "Ouarzazate is strategically located for a wide range of excursions to the surrounding areas. With this in mind, we've crafted exceptional day trips that you may have already considered. Among the best experiences Ouarzazate offers is the unique one-day trip to Zagora Desert.Set off on a captivating day trip from Ouarzazate to Zagora Desert, where you’ll explore the stunning Anti Atlas Mountains and the beautiful Draa Valley.",
+      "PointsInteret": [
+        "Draa Valley",
+        "Zagora Desert",
+        "Tamegroute"
+      ],
+      "details": "From October to April, when temperatures are milder and conditions are ideal for desert exploration.",
+      "price": [
+        "2 people: 1900 DHS/person",
+        "3 people: 1400 DHS/person",
+        "4 people: 1200 DHS/person",
+        "5 people: 1040 DHS/person",
+        "6 people: 950 DHS/person"
+      ],
+      "desertImages": [
+        "/img/images/camp02.jpg",
+        "/img/images/sport3.jpg",
+        "/img/perso_img/IMG-20250103-WA0027.jpg",
+        "/img/perso_img/IMG-20250103-WA0026.jpg",
+        "/img/perso_img/IMG-20250103-WA0011.jpg",
+        "/img/perso_img/IMG-20250103-WA0029.jpg",
+        "/img/images/Restauration06.jpg",
+        "/img/images/Restauration07.jpg",
+        "/img/images/Cump9.jpg",
+        "/img/images/Cump10.jpg",
+        "/img/perso_img/IMG-20250103-WA0036.jpg",
+        "/img/perso_img/IMG-20250103-WA0031.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Private Transfers",
+      "description": "Travel in comfort with a private 4x4 and driver. We offer transfer services to major cities and airports, departing from your guesthouse.For groups of more than 6 people, please contact us for details.",
+      "PointsInteret": [
+        "Tamegroute",
+        "Vallée de Draa",
+        "Piste vers l'erg Lihoudi"
+      ],
+      "details": "",
+      "price": [
+        "Zagora Airport: 400 DHS / transfer",
+        "Ouarzazate: 1800 DHS / transfer",
+        "Marrakech: 3000 DHS / transfer",
+        "Agadir: 3500 DHS / transfer"
+      ],
+      "desertImages": [
+        "/img/images/transp.jpg",
+        "/img/images/agadir.jpg",
+        "/img/images/Marrakech.jpg"
+      ]
+    }
+  ]
+}

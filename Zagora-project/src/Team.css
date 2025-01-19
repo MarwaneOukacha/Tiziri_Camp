@@ -1,0 +1,48 @@
+.thumbnail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .team-img {
+    border-radius: 15%;
+    width: 200px;  /* Image width */
+    height: 200px;  /* Image height */
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .caption {
+    max-width: 70%;
+    text-align: left;
+  }
+  
+  .caption h4 {
+    margin-bottom: 5px;
+  }
+  
+  .caption p {
+    margin-bottom: 10px;
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 767px) {
+    .thumbnail {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-img {
+      width: 150px;  /* Smaller image size on mobile */
+      height: 150px;  /* Smaller image size on mobile */
+      margin-bottom: 15px;  /* Add some space below the image */
+    }
+  
+    .caption {
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,87 @@
+
+  
+.login-container {
+  margin-top: 50px;
+    background: #fff;
+    padding: 6rem; /* Substantially increased padding */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+    width: 100%;
+    max-width: 900px; /* Significantly increased container width */
+    
+    /* Centrage */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 2.5rem;
+    color: #333;
+    font-size: 2.5rem; /* Larger heading size */
+    text-align: center;
+    
+  }
+  
+  .input-group {
+    margin-bottom: 2rem;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #555;
+    font-size: 1.1rem; /* Larger label text */
+  }
+  .input-group{
+    width: 100%;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 1.5rem; /* Increased padding for inputs */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1.2rem; /* Larger input font size */
+    color: #333;
+  }
+  
+  .input-group input:focus {
+    border-color: #d65a07;
+    outline: none;
+    box-shadow: 0 0 8px rgba(231, 126, 5, 0.5); /* Enhanced focus effect */
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 1.5rem; /* Larger button size */
+    background: #d65a07;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem; /* Bigger button text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #d65a07;
+  }
+  
+  .signup-text {
+    margin-top: 2.5rem; /* Increased margin for spacing */
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #666;
+    text-align: center;
+  }
+  
+  .signup-text a {
+    color: #d65a07;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  

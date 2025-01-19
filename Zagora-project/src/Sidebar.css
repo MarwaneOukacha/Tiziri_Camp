@@ -1,0 +1,140 @@
+/* Sidebar Styles */
+.sidebar {
+  padding-top: 3rem;
+  width: 250px;
+  height: 100vh;
+  background: white;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease; /* Smooth transition for responsiveness */
+}
+
+.sidebar.mobile {
+  width: 80px; /* Shrink sidebar for mobile */
+}
+
+.logo {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center; /* Center-align logo for mobile */
+  overflow: hidden; /* Prevent overflow */
+  white-space: nowrap; /* Prevent text wrapping */
+  transition: font-size 0.3s ease;
+}
+
+.sidebar.mobile .logo {
+  font-size: 1rem; /* Adjust font size for mobile */
+}
+
+.menu {
+  padding: 0.5rem 1rem;
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  color: #4b5563;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar.mobile .menu-item {
+  justify-content: center; /* Center-align items */
+  padding: 0.5rem; /* Adjust padding for icons */
+}
+
+.menu-item-icon {
+  font-size: 1.25rem;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-text {
+  font-size: 0.9375rem;
+  margin-left: 0.75rem;
+}
+
+.sidebar.mobile .menu-item-text {
+  display: none; /* Hide text for mobile */
+}
+
+.user-section {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;
+  justify-content: center; /* Center user section */
+}
+
+.sidebar.mobile .user-section {
+  flex-direction: column; /* Stack user info */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sidebar.mobile .user-name {
+  display: none; /* Hide user info for mobile */
+}
+.sidebar.mobile .user-logout{
+  display: none; /* Hide user info for mobile */
+
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px; /* Default to mobile view */
+  }
+  
+}
+
+
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: orange; /* Set logout text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease; /* Smooth color change on hover */
+}
+
+.logout-button:hover {
+  color: darkorange; /* Slightly darker orange on hover */
+}
+
+.user-logout {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.sidebar.mobile .user-logout {
+  display: none; /* Hide logout text for mobile view */
+}
+
+.sidebar.mobile .logout-button {
+  justify-content: center; /* Center icon in mobile view */
+}
