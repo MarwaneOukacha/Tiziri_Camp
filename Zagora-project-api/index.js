@@ -14,7 +14,7 @@ app.use(express.json());
 
 // CORS Configuration
 const corsOptions = {
-    origin: 'http://localhost:3000', // Allow your frontend URL
+    origin: process.frontUrl, // Allow your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true, // Allow cookies or authentication headers if needed
@@ -77,5 +77,5 @@ app.post('/send-message', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`API en cours d'exécution sur http://localhost:${port}`);
+    //console.log(`API en cours d'exécution sur http://localhost:${port}`);
 });
