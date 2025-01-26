@@ -3,7 +3,7 @@ import axios from 'axios';
 export const sendWhatsAppMessage = async (From, message) => {
     try {
         const response = await axios.post(
-            "http://localhost:4000/send-message",
+            "https://zagoura-api-k5qp.vercel.app/send-message",
             {
                 From: From,
                 message: message
