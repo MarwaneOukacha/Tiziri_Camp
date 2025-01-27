@@ -25,7 +25,6 @@ const ReservationForm = ({ data }) => {
 
     const reservation = data[id - 1];
     useEffect(() => {
-        console.log(reservation);
     }, []);
 
     const [isSubmitted, setIsSubmitted] = useState(false); // Keep track of form submission
@@ -54,12 +53,12 @@ const ReservationForm = ({ data }) => {
 
                 setIsSubmitted(true); // Show success message
             } else {
-                console.log("hnaaa 1")
+                console.log("Failed to send message: "+result.err)
                 notify('Failed to send message:', result.err || 'Unknown error');
             }
         } catch (error) {
             setLoading(false);
-            console.log("hnaaa 2")
+            console.log("Failed to send message: "+error.message)
             notify('Failed to send message:', error.message || 'Unknown error');
         } finally {
             setLoading(false);
