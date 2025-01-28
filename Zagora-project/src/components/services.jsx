@@ -11,7 +11,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Services offered by Acacia Voyages: a range of tailor-made tours adaptable to your desires.
+            Services offered by Tiziri camp: a range of tailor-made tours adaptable to your desires.
           </p>
         </div>
         <div className="row">
