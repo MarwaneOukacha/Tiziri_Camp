@@ -15,7 +15,7 @@ export const Team = (props) => {
             <div className="caption">
               <h4>Mohamed El Morabity</h4>
               <p><strong>Manager</strong></p>
-              <p>Born in Zagora, Morocco, at the gateway to the Moroccan desert, I am a professional trail runner. Inspired by the legendary Ahansal brothers and my own sibling, who won the famous Marathon des Sables, I developed a passion for running at a young age. Over time, I started winning races in Morocco and participated in the Marathon des Sables for the first time in 2017, where I finished second behind my brother. Since then, I've traveled the world, winning races in deserts (Tunisia, Oman) and mountains (Cappadocia, Alps, Canada). I am eager to share my experiences and pro tips with you.</p>
+              <p>Born in Zagora, Morocco, at the gateway to the Moroccan desert, I am a professional trail runner. Inspired by the legendary El Morabity brothers and my own sibling, who won the famous Marathon des Sables, I developed a passion for running at a young age. Over time, I started winning races in Morocco and participated in the Marathon des Sables for the first time in 2017, where I finished second behind my brother. Since then, I've traveled the world, winning races in deserts (Tunisia, Oman) and mountains (Cappadocia, Alps, Canada). I am eager to share my experiences and pro tips with you.</p>
             </div>
           </div>
         </div>
