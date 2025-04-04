@@ -65,18 +65,7 @@ const Excursion = ({ data }) => {
           </div>
 
           {/* Added increment tool for number of persons */}
-          <div className="pricing-info">
-            <h3>Tarifs</h3>
-            <div className="person-control">
-
-              {excursion.price.map((prices, index) => (
-                <p>Prix : <strong>{prices}</strong></p>
-              ))
-              }
-            </div>
-
-          </div>
-
+        
           {/*<div className="rating">
             ⭐⭐⭐⭐⭐ <span>4.8 (120 avis)</span>
           </div>*/}
