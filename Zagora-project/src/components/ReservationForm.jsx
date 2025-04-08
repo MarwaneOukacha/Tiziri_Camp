@@ -119,23 +119,7 @@ const ReservationForm = ({ data }) => {
                         required
                     />
 
-                    <label htmlFor="personneDh">Personne/DH</label>
-                    <select
-                        id="personneDh"
-                        name="personneDh"
-                        value={formData.personneDh}
-                        onChange={handleChange}
-                        required
-                    >
-                        <option value="" disabled>
-                            Select an option
-                        </option>
-                        {reservation.price.map((prices, index) => (
-                            <option key={index} value={prices}>
-                                {prices}
-                            </option>
-                        ))}
-                    </select>
+                    
 
                     <label htmlFor="message">Special Requests</label>
                     <textarea
